@@ -63,7 +63,7 @@ function drawRomb(size) {
     }
 }
 
-function multiple(a, b) {
+function multiply(a, b) {
     let c = a;
     if (a === 0 || b === 0) {
         return 0;
@@ -82,7 +82,7 @@ function multiple(a, b) {
     }
 }
 
-console.log(multiple(2, 3));
+console.log(multiply(2, 3));
 drawTriangle(3);
 console.log("\n");
 drawRomb(3);
